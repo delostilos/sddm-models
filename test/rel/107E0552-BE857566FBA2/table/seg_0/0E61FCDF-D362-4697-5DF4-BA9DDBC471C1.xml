@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E61FCDF-D362-4697-5DF4-BA9DDBC471C1" name="Entity_1">
+<createdBy>datadenken</createdBy>
+<createdTime>2019-08-03 14:48:35 UTC</createdTime>
+<generatorID>1FB73609-5AA1-7265-06C2-66F807D9D771</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<additionalClassificationTypes>3</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Attribute_1" id="52B7B75C-37F4-8607-9F22-26FE0AD85C6B">
+<createdBy>datadenken</createdBy>
+<createdTime>2019-08-03 14:48:35 UTC</createdTime>
+<generatorID>82E8C04D-13D0-1F38-D1AF-B2A37F2F0CC0</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
