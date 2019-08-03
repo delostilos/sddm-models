@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="D12599E0-0048-77CD-78B5-6E1FDE6D2A91" name="VIEW_1">
+<createdBy>datadenken</createdBy>
+<createdTime>2019-08-03 14:27:51 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="107E0552-30A3-60FE-9796-BE857566FBA2" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    entity_1.attribute_1 AS "bb",
+    entity_1.attribute_1 + entity_1.attribute_1 AS combi
+FROM
+    entity_1]]></userDefinedSQL>
+<layoutSQL><![CDATA[<?xml version = '1.0' encoding = 'UTF-8'?>
+<ActiveQueryBuilderLayout><SQL>Select Entity_1.Attribute_1 As "bb", Entity_1.Attribute_1 + Entity_1.Attribute_1 As combi From Entity_1</SQL><SubQueries><SubQuery SQL="Select Entity_1.Attribute_1 As &quot;bb&quot;, Entity_1.Attribute_1 + Entity_1.Attribute_1 As combi From Entity_1"><UnionSubQuery><DataSource SQL="Entity_1" X="50" Y="20" Height="64" Width="140"/></UnionSubQuery></SubQuery></SubQueries></ActiveQueryBuilderLayout>]]></layoutSQL>
+<parsed>true</parsed>
+<viewType>NAMED QUERY</viewType>
+<usedContainers>
+<container containerID="1FB73609-5AA1-7265-06C2-66F807D9D771"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&quot;bb&quot;" id="56962E3A-0148-316A-7A96-3DD69A97E08C">
+<createdBy>datadenken</createdBy>
+<createdTime>2019-08-03 14:28:24 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="107E0552-30A3-60FE-9796-BE857566FBA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;bb&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>82E8C04D-13D0-1F38-D1AF-B2A37F2F0CC0</referencedColumn>
+<table>1FB73609-5AA1-7265-06C2-66F807D9D771</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="combi" id="3F745D85-0FED-2784-A0E7-519124A8F535">
+<createdBy>datadenken</createdBy>
+<createdTime>2019-08-03 14:30:04 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="107E0552-30A3-60FE-9796-BE857566FBA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>combi</alias>
+<dataType>UNKNOWN</dataType>
+<expression>Entity_1.Attribute_1 + Entity_1.Attribute_1</expression>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1FB73609-5AA1-7265-06C2-66F807D9D771">
+<container>true</container>
+<tableName>Entity_1</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="82E8C04D-13D0-1F38-D1AF-B2A37F2F0CC0">
+<columnName>Attribute_1</columnName>
+<tableName>Entity_1</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

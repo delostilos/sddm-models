@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D42EE95D-07BD-FB78-8F75-EDED831DE374" mainViewID="6524A557-0A26-2804-9C0E-EB9AB5F0580E">
+<createdBy>datadenken</createdBy>
+<createdTime>2019-08-03 14:09:10 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

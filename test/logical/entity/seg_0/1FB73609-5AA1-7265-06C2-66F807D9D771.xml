@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FB73609-5AA1-7265-06C2-66F807D9D771" name="Entity_1">
+<createdBy>datadenken</createdBy>
+<createdTime>2019-08-03 14:25:07 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="107E0552-30A3-60FE-9796-BE857566FBA2" value="true"/>
+</engineerTo>
+<additionalClassificationTypes>3</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<propertyMap>
+<property name="gen" value="A"/>
+<property name="tt" value="1"/>
+</propertyMap>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Attribute_1" id="82E8C04D-13D0-1F38-D1AF-B2A37F2F0CC0">
+<createdBy>datadenken</createdBy>
+<createdTime>2019-08-03 14:26:35 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="107E0552-30A3-60FE-9796-BE857566FBA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<propertyMap>
+<property name="gen" value="B"/>
+</propertyMap>
+</Attribute>
+</attributes>
+</Entity>
